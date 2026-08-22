@@ -1,8 +1,8 @@
-package cognizant.BILL;
+package cognizant;
 
 import java.util.Scanner;
 
-public class JAVA {
+public class bill {
     static void main() {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
