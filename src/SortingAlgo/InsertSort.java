@@ -11,7 +11,6 @@ public class InsertSort {
                 arr[j-1]=temp;
                 j--;
             }
-
         }
     }
     static void main() {

@@ -1,7 +1,9 @@
 package oopsClass.ArraysLists;
 import java.util.Arrays;
 import java.util.Scanner;
-public class arraylist<T> {
+//public class arraylist<T> {
+    public class arraylist<T extends Number> {
+
     private Object[] arr;
     private static int Default = 10;
     private int size= 0;
@@ -58,8 +60,8 @@ public class arraylist<T> {
 
     static void main() {
 
-        arraylist<String> obj = new arraylist<>();
-
+//        arraylist<String> obj = new arraylist<>();
+        arraylist<Number> obj = new arraylist<>();
         for(int i = 0 ; i < 12 ; i++){
             char a = (char) (i+'a');
             obj.add(a);
