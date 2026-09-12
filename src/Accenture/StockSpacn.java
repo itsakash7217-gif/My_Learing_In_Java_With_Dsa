@@ -16,9 +16,10 @@ public class StockSpacn {
                 s.pop();
             }
             if(s.isEmpty()){
-                s.push(i);
+                growth[i]=i+1;
+            }else {
+                growth[i] = i - s.peek();
             }
-            growth[i]=i-s.peek();
             s.push(i);
         }
         System.out.println(Arrays.toString(growth));
