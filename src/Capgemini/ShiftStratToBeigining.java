@@ -17,6 +17,6 @@ public class ShiftStratToBeigining {
                 ans.append(s.charAt(j));
             }
         }
-        System.out.println(ans.toString());
+        System.out.println(ans);
     }
 }
